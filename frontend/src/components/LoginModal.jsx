@@ -62,7 +62,7 @@ function LoginModal({ onClose, onLoginSuccess }) {
             >
                 <button 
                     type="button"
-                    onClick={onclose}
+                    onClick={onClose}
                     aria-label="Close login modal"
                     className="
                         absolute right-4 top-4 
@@ -132,7 +132,7 @@ function LoginModal({ onClose, onLoginSuccess }) {
 
                             <input
                                 id="password"
-                                typed="password"
+                                type="password"
                                 autoComplete="current-password"
                                 value={password}
                                 onChange={(event) =>

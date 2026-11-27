@@ -3,7 +3,7 @@ import { config } from "./config/env.js";
  
 app.listen(config.port, () => {
     console.log(".......................................");
-    console.log("reana's restaurant backend");
+    console.log("reana's restaurant");
     console.log(".......................................");
 
     console.log(`Server running at http://localhost:${config.port}`);
